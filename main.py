@@ -1,7 +1,7 @@
 CREATE TABLE IF NOT EXISTS Исполнители (
 	id_artist SERIAL PRIMARY key,
-	Имя VARCHAR(50) NOT NULL unique,
-	id_genre INTEGER NOT NULL unique
+	Имя VARCHAR(50) NOT NULL UNIQUE,
+	id_genre INTEGER NOT NULL UNIQUE
 );
 CREATE TABLE IF NOT EXISTS Альбомы (
 	id_album SERIAL PRIMARY key,
